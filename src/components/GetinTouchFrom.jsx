@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const ContactForm = ({scrollToFooter}) => {
+const ContactForm = () => {
   const [formData, setFormData] = useState({ name: '', phone: '', email: '', message: '' });
   const [errorMessage, setErrorMessage] = useState('');
   const [isOpen, setIsOpen] = useState(false);

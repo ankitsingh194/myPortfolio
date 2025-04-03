@@ -1,11 +1,11 @@
 import React  from "react";
 import LandingPageComponent from "../components/landingpage";
-import ServiceOfferings from "../components/ServiceWeoffer";
+
 import MernStackInfo from "../components/TechStack";
 import FAQ from "../components/FandQsection";
-import ContactForm from "../components/GetinTouchFrom";
+
 import avatar from '../assets/avatar.png'
-import Footer from "../components/Footer";
+
 
 
 
