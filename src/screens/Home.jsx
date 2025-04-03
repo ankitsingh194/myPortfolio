@@ -4,7 +4,7 @@ import LandingPageComponent from "../components/landingpage";
 import MernStackInfo from "../components/TechStack";
 import FAQ from "../components/FandQsection";
 
-import avatar from '../assets/avatar.png'
+import avatar from '../assets/avatar.webp'
 
 
 
