@@ -7,7 +7,7 @@ import FAQ from "../components/FandQsection";
 import avatar from '../assets/avatar.webp'
 
 
-
+// https://portfolioofankitsingh.netlify.app/
 
 const LandingPage = () => {
 

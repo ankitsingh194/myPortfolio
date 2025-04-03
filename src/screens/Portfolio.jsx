@@ -6,13 +6,13 @@ import project2 from '../assets/project2.webp';
 const projects = [
   {
     id: 1,
-    title: 'RealState Website',
+    title: 'Full stack RealState Website',
     description: 'A complete  website to show your realstate propertys.',
     image: project2
   },
   {
     id: 2,
-    title: 'Doctor Task Management WebApp',
+    title: 'Full stack Doctor Task Management WebSite',
     description: 'A productivity Webapp to manage your tasks effectively.',
     image: project1
   },
