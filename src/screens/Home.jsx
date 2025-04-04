@@ -21,7 +21,7 @@ const LandingPage = () => {
 
   return (
     <section className=" p-1" >
-    <div className=" bg-transparent min-[60vh] flex flex-col items-center    bg-cover bg-center text-white py-10" >
+    <div className=" bg-transparent   flex flex-col items-center    bg-cover bg-center text-white py-10" >
     <div class="area">
 			<ul class="circles">
 				<li></li>
@@ -36,8 +36,8 @@ const LandingPage = () => {
 				<li></li>
 			</ul>
 		</div>
-      <div className="flex flex-col md:flex-row items-center justify-between w-10/12 mt-10 ml-[10%] my-[92px]">
-        <div className="md:w-1/2 text-center md:text-left z-10 ">
+      <div className="flex flex-col md:flex-row items-center justify-between w-10/12 mt-10 ml-[10%] my-[92px] mb-[10px]">
+        <div className="md:w-1/2 text-center md:text-left p-[4rem]   ">
           <h1 className="text-6xl font-bold text-white leading-tight">
             MERN Stack Developer
           </h1>
@@ -48,18 +48,18 @@ const LandingPage = () => {
             <button className="bg-blue-500 p-3 border-none rounded-md shadow-md hover:scale-105 cursor-pointer" onClick={() => scrollToFooter()}>Get in Touch</button>
           </div>
         </div>
-        <div className="md:w-1/2   justify-center mt-[-40px] md:mt-0  hidden lg:flex m-[20px]">
+        <div className="md:w-1/2   justify-center  md:mt-0  flex ">
           {/* Image or Avatar here */}
-          <img src={avatar} alt="Background" className="w-[45%] h-[45%] rounded-full max-w-md  shadow-lg z-10  transition-transform   hover:scale-105" />
+          <img src={avatar} alt="Background" className="lg:w-[45%] lg:h-[45%] w-[70%] h-[70%] rounded-full max-w-md  shadow-lg   transition-transform   hover:scale-105" />
         </div>
 
       </div>
       
     </div>
-    <div>
+    <div className=" mt-[20px] lg:mt-[40px]">
     <LandingPageComponent/>
     </div>
-   <div className=" py-[30px] md:py-0 lg:py-0 2xl:py-0">
+   <div className="  mt-[-10px] md:mt-[-80px] md:py-0 lg:py-0 2xl:py-0 w-full">
    <MernStackInfo/>
    </div>
    <div>
