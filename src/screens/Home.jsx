@@ -21,7 +21,7 @@ const LandingPage = () => {
 
   return (
     <section className=" p-1" >
-    <div className=" bg-transparent   flex flex-col items-center    bg-cover bg-center text-white py-10" >
+    <div className=" bg-transparent   flex flex-col items-center    bg-cover bg-center text-white py-3 " >
     <div class="area">
 			<ul class="circles">
 				<li></li>
@@ -37,18 +37,18 @@ const LandingPage = () => {
 			</ul>
 		</div>
       <div className="flex flex-col md:flex-row items-center justify-between w-10/12 mt-10 ml-[10%] my-[92px] mb-[10px]">
-        <div className="md:w-1/2 text-center md:text-left p-[4rem]   ">
-          <h1 className="text-6xl font-bold text-white leading-tight">
+        <div className="md:w-1/2 text-center md:text-left pb-[9rem]   ">
+          <h1 className="text-5xl font-bold text-white leading-tight">
             MERN Stack Developer
           </h1>
           <p className="mt-4  text-white text-2xl">
-          Hello i am   <span className="font-bold">MERN stack developer </span> and My name is  <span className="font-bold">Ankit Singh.</span> 
+          Hey there! I'm Ankit Singh a  <span className="font-bold">dedicated MERN stack developer </span> who loves turning complex ideas into elegant,  <span className="font-bold"> full-stack web solutions.</span> 
           </p>
           <div className="mt-6 flex justify-center md:justify-start space-x-4">
             <button className="bg-blue-500 p-3 border-none rounded-md shadow-md hover:scale-105 cursor-pointer" onClick={() => scrollToFooter()}>Get in Touch</button>
           </div>
         </div>
-        <div className="md:w-1/2   justify-center  md:mt-0  flex ">
+        <div className="md:w-1/2   justify-center  md:mt-0  flex mt-[20px] ml-[-25px] ">
           {/* Image or Avatar here */}
           <img src={avatar} alt="Background" className="lg:w-[45%] lg:h-[45%] w-[70%] h-[70%] rounded-full max-w-md  shadow-lg   transition-transform   hover:scale-105" />
         </div>
@@ -56,7 +56,7 @@ const LandingPage = () => {
       </div>
       
     </div>
-    <div className=" mt-[20px] lg:mt-[40px]">
+    <div className=" mt-[20px] lg:mt-[50px]">
     <LandingPageComponent/>
     </div>
    <div className="  mt-[-10px] md:mt-[-80px] md:py-0 lg:py-0 2xl:py-0 w-full">

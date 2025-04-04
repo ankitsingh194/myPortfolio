@@ -1,10 +1,10 @@
 const LandingPageComponent = () => {
     return (
-      <section className="py-4 bg-white text-center lg:mt-[120px]">
+      <section className="py-1 bg-white text-center lg:mt-[120px]">
         <h2 className="text-3xl font-semibold text-orange-500 mb-8">
           Explore My Expertise
         </h2>
-        <div className=" flex justify-center ml-[7%] md:ml-[2%] lg:ml-[2%] 2xl:ml-[2%]">
+        <div className=" flex justify-center ml-[7%] md:ml-[3%] lg:ml-[2%] 2xl:ml-[2%]">
         <div className="container mx-auto flex-1 grid md:grid-cols-2 lg:grid-cols-3 gap-[2.5rem] px-4 ">
           {options.map((option, index) => (
             <div

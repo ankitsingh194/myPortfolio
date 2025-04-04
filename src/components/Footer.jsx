@@ -8,7 +8,7 @@ const Footer = () => {
         {/* Company Info Section */}
         <div>
           <h2 className="text-xl font-semibold mb-4">About Us</h2>
-          <p className="text-gray-400">I am Software developer and the tech stack i work with is MERN Stack + mySql .</p>
+          <p className="text-gray-400">Hey there! I'm Ankit Singh, a dedicated MERN stack developer who loves turning complex ideas into elegant, full-stack web solutions. .</p>
         </div>
 
         {/* Services Section */}
