@@ -24,8 +24,8 @@ const FAQ = () => {
 
   return (
     <div className="min-h-[50vh] p-6 bg-white flex flex-col items-center">
-      <h2 className="text-4xl font-bold mb-8">FAQs on MERN Stack Development</h2>
-      <p className="text-gray-600 mb-8 text-center text-lg max-w-5xl">MERN stack is a new entrant into the tech market. Understandably, there are numerous doubts and concerns revolving around it that affect the framework’s steady adoption. Here are some common queries to help you with the crucial information regarding MERN stack web development.</p>
+      <h2 className="text-2xl md:text-4xl font-bold mb-8">FAQs on MERN Stack Development</h2>
+      <p className="text-gray-600 mb-8 text-center text-md md:text-lg max-w-5xl">MERN stack is a new entrant into the tech market. Understandably, there are numerous doubts and concerns revolving around it that affect the framework’s steady adoption. Here are some common queries to help you with the crucial information regarding MERN stack web development.</p>
       <div className="w-full max-w-5xl">
         {faqs.map((faq, index) => (
           <div key={index} className="border-b border-gray-200">
@@ -39,7 +39,7 @@ const FAQ = () => {
               </div>
             </button>
             {openIndex === index && (
-              <div className="p-4 text-gray-700 text-lg font-semibold">{faq.answer}</div>
+              <div className="p-4 text-gray-700 text-md md:text-lg font-semibold">{faq.answer}</div>
             )}
           </div>
         ))}

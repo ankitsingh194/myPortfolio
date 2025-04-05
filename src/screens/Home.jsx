@@ -21,7 +21,7 @@ const LandingPage = () => {
 
   return (
 <section className="p-1">
-  <div className="relative flex flex-col items-center text-white py-8 bg-transparent bg-cover bg-center">
+  <div className="relative flex flex-col items-center text-white py-2 bg-transparent bg-cover bg-center">
     {/* Background animation */}
     <div className="area absolute inset-0 z-0 overflow-hidden">
       <ul className="circles">
@@ -32,13 +32,13 @@ const LandingPage = () => {
     </div>
 
     {/* Main content */}
-    <div className="relative z-10 flex flex-col-reverse lg:flex-row items-center justify-between w-full max-w-7xl px-1 gap-10 mt-16 mb-10">
+    <div className="relative z-10 flex flex-col-reverse lg:flex-row items-center justify-between w-full max-w-7xl px-2 lg:mt-[36px] gap-10 mt-1 mb-10">
       {/* Text Section */}
-      <div className="w-full lg:w-[55%] text-center lg:text-left lg:ml-2">
-        <h1 className="text-4xl md:text-5xl font-bold leading-tight">
+      <div className="w-[90%] lg:w-[55%] text-center lg:text-left lg:ml-2">
+        <h1 className="lg:text-4xl  text-2xl md:text-5xl font-bold leading-tight">
           MERN Stack Developer
         </h1>
-        <p className="mt-4 text-lg md:text-xl">
+        <p className="mt-4 p-3 text-md lg:text-lg md:text-xl">
           Hey there! I'm Ankit Singh, a <span className="font-bold">dedicated MERN stack developer</span> who loves turning complex ideas into elegant, <span className="font-bold">full-stack web solutions.</span>
         </p>
         <div className="mt-6 flex justify-center lg:justify-start">

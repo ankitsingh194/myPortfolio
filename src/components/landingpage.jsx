@@ -11,8 +11,8 @@ const LandingPageComponent = () => {
               key={index}
               className={`${option.color} shadow-lg rounded-2xl p-10 border w-[90%] border-gray-200 relative overflow-hidden  transition-transform transform hover:scale-105`}
             >
-              <h3 className="text-[23px] font-bold mb-2">{option.title}</h3>
-              <p className="text-gray-600 text-lg ">{option.description}</p>
+              <h3 className="text-[17px] md:text-[20px] lg:text-[23px] font-bold mb-2">{option.title}</h3>
+              <p className="text-gray-600 text-md md:text-lg ">{option.description}</p>
               
             </div>
           ))}
