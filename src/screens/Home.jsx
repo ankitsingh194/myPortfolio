@@ -66,7 +66,7 @@ const LandingPage = () => {
   <div className="mt-10">
     <LandingPageComponent />
   </div>
-  <div className="mt-0 lg:mt-[-40px] 2xl:mt-[-40px]  w-full">
+  <div className="pt-4 lg:mt-[-40px] 2xl:mt-[-40px]  w-full">
     <MernStackInfo />
   </div>
   <div className="mt-6">
