@@ -38,7 +38,7 @@ const MernStackInfo = () => {
     <div className="min-h-screen  lg:ml-[30px]  flex flex-col items-center justify-center bg-white p-1 mt-[10px] ">
         <h2 className="text-3xl font-bold text-orange-500 mb-8 mx-[40px] mt-[20px] lg:ml-0 ">Learn About the Tech Stack </h2>
         <div className=' w-[80%] ml-[-10px] lg:ml-[-40px]'>
-      <div className={`grid gap-11   ${cards.length < 3 ? 'grid-cols-1 md:grid-cols-2 justify-center' : 'grid-cols-1 md:grid-cols-2 lg:grid-cols-3'}`}>
+      <div className={`grid gap-11   ${cards.length < 3 ? 'grid-cols-1 md:grid-cols-2 lg:grid-cols-2 2xl:grid-cols-3 justify-center' : 'grid-cols-1 md:grid-cols-2 lg:grid-cols-2 2xl:grid-cols-3'}`}>
         {cards.map((card, index) => (
           <div key={index} className={`${card.bgColor} p-10 rounded-lg shadow-xl transition-transform transform hover:scale-105 text-gray-800`}> 
             <h3 className="text-2xl font-semibold mb-6 flex items-center ">{card.icon} {card.title}</h3>
