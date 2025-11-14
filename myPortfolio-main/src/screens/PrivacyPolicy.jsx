@@ -136,12 +136,7 @@ export default function StockbookPrivacyPolicy({
         </section>
       </article>
 
-      <footer className="mt-6 pt-4 border-t border-gray-100 text-sm text-gray-500">
-        <p>
-          This template is not legal advice. Consider consulting a lawyer before publishing the
-          policy. Replace the support email above with your real contact before release.
-        </p>
-      </footer>
+      
     </div>
   );
 }
